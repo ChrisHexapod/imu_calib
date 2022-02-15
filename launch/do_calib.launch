@@ -1,0 +1,7 @@
+<launch>
+ <node pkg="MPU9255" type="MPU9255_node" name="MPU_9255_node">  </node>
+ </node>
+
+ <node pkg="imu_calib" type="do_calib" name="do_calib" output="screen" respawn=>
+ </node>
+</launch>
